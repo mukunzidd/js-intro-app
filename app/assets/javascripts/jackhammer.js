@@ -1,16 +1,15 @@
-// FIrst Question
+// One Time Win
 // function jackhammer(){
 // 	alert('YOU WIN HOSS!!!');
 // }
 
-// Second question
-var clicks = 0;
+// Five times you win
+var clicks = 1;
 function jackhammer(){
-	if (clicks === 4) {
+	if (clicks === 5) {
 		alert('YOU WIN HOSS 5 Clicks!!!');
 	} else 
 	clicks++;
-	console.log('Way to go hoss!');
-	console.log(clicks);
+	console.log('Way to go hoss! Keep clicking Jack...');
 }
 
