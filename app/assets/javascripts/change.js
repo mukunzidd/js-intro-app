@@ -11,7 +11,7 @@ function changeImage() {
 }
 
 function changeSecondTitle() {
-  document.getElementById("second-title").innerHTML = "To something new!"
+  document.getElementById("second-title").innerHTML = "We're changing the DOM!"
 }
 
 function finishSentence(phrase) {

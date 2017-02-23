@@ -4,9 +4,12 @@
 // }
 
 // Five times you win
-var clicks = 1;
-function jackhammer(){
+var colors = ["red", "black", "green", "orange", "cyan"];
+		clicks = 1;
+function jackhammer(box){
+	box.style["background-color"] = colors[(Math.floor(Math.random()*colors.length))];
 	if (clicks === 5) {
+		document.body.style.background = "teal";
 		alert('YOU WIN HOSS 5 Clicks!!!');
 	} else 
 	clicks++;

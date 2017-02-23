@@ -19,6 +19,15 @@ body {
     background-color: red;
   }
 }
+// #morning {
+//   display: none;
+// }
+// #afternoon {
+//   display: none;
+// }
+// #evening {
+//   display: none;
+// }
 
 #tic-tac-toe {
 
@@ -56,6 +65,7 @@ body {
   
 }
 
+
 #memory-game {
 
   .box {
@@ -81,6 +91,7 @@ body {
     color: white;
     text-align: center;
     margin: 5px;
+    cursor: hand;
   }
 
 }
